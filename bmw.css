@@ -1,0 +1,419 @@
+*{
+    margin:0;
+}
+
+.bg{
+    background-image: url("https://www.bmwusa.com/content/dam/bmwusa/common/homepage/fmas/2023-06/desktop/BMW-MY24-iX-Homepage-FMA-Desktop.jpg");
+    background-size: cover;
+    height: 100vh;
+    
+}
+.bg img{
+    height: 100vh;
+}
+
+.navbar{
+    height:60px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: transparent;
+}
+.nav-logo{
+    height:60px;
+}
+.nav-logo img{
+    height: 100%;
+    margin-top: 10px;
+}
+.nav-options p{
+    font-weight: bold;
+    display: inline;
+    width:100%
+   
+   
+}
+.nav-options p:hover{
+    color:white;
+}
+.nav-select{
+    border:2px solid transparent;
+    font-weight: bold;
+    background: transparent;
+}
+.nav-select:hover{
+    color:white;
+}
+.nav-end{
+    display: flex;
+}
+.nav-end p:hover{
+    color:white;
+}
+.nav-end1{
+    display:flex;
+align-items: center;
+justify-content: center;
+}
+.nav-end2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  height:40px;
+  width:40px;
+  color: white;
+  background-color: black;
+  border-radius: 50%;
+  justify-content: center;
+  margin: 5px;
+}
+.search:hover{
+    color:black;
+    background-color: white;
+}
+.herosection{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+   margin-top: 200px;
+    width: 40%;
+    color:white;
+}
+.herosection h2{
+    font-size: 4rem;
+}
+.herosection h4{
+    font-size: 1rem;
+    margin-left: 20px;
+}
+.hero-buttons{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 20px;
+    display: flex;
+}
+.hero-button1 button{
+     width: 200px;
+     height: 50px;
+     margin-left: 20px;
+     background-color: rgb(4, 4, 236);
+     color: white;
+}
+.hero-button1 button:hover{
+background-color: darkblue;
+}
+.hero-button2 button{
+    width: 200px;
+    height: 50px;
+    margin-left: 20px;
+    background-color: white;
+    color: black;
+}
+.hero-button2 button:hover{
+    background-color: silver;
+}
+.hero-base{
+
+    margin-top:150px;
+   text-align: right;
+}
+.hero-base h3{
+    display: inline;
+    width: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    color:white;
+}
+.bold{
+    font-weight: bolder;
+}
+.car-section{
+    width:100%;
+    height:450px;
+    display: flex;
+    margin-bottom: 60px;
+   
+  
+}
+.car-1{
+    height:100%;
+    width: 50%;
+    margin:30px;
+    background-image: url("https://www.bmwusa.com/content/dam/bmwusa/common/homepage/fmas/2023-01/desktop/BMW-Secondary-FMA-Homepage-Cookied-Tile-01-Desktop.jpg");
+    color:white;
+   
+
+}
+.car-content{
+    margin-top: 300px;
+    text-align: center;
+}
+.car-content h4{
+    
+font-family: sans-serif;
+font-weight: bolder;
+margin-bottom: 0%;
+}
+.car-content h2{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+.car-content a{
+ text-decoration: underline;
+ color:silver;
+}
+.car-2{
+    height:100%;
+    width:50%;
+    margin:30px;
+    background-image: url("https://www.bmwusa.com/content/dam/bmwusa/common/homepage/fmas/2023-03/desktop/BMW-MY24-X5-HP-Secondary-FMA-Desktop.jpg");
+    color:white;
+}
+.car-content a:hover{
+color:white;
+}
+.car-3{
+     height:100%;
+    width: 50%;
+    margin:30px;
+    background-image: url("https://www.bmwusa.com/content/dam/bmwusa/common/fma/new-secondary-fmas-assets/non-cookied/secondary-fma-2/BMW-MY23-X7-Secondary-FMA-Desktop.jpg");
+    color:white;
+}
+.car-4{
+    height:100%;
+    width: 50%;
+    margin:30px;
+    background-image: url("https://www.bmwusa.com/content/dam/bmwusa/common/homepage/fmas/2023-03/desktop/BMW-Secondary-FMA-Homepage-Tile-04-Desktop.jpg");
+    color:white;
+}
+.section{
+    background-color:#41414110;
+    height:400px;
+    width:100%;
+  
+    
+}
+
+.car4-section{
+    
+   display: flex;
+   justify-content: space-evenly;
+   
+    
+}
+.car4-head{
+    text-align: center;
+    height: 30px;
+    width:100%;
+
+}
+.car4-head{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.car11{
+    margin:40px;
+    height:30%;
+    width:20%;
+    text-align: center;
+}
+.car-img{
+height:130px;
+width:280px;
+}
+.car4-content{
+    color:black;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+.car4-content a{
+    text-decoration: underline;
+    font-weight: bold;
+    color:black;
+}
+.car4-content a:hover{
+    color:silver;
+}
+.car22{
+    margin:40px;
+    height:30%;
+    width:20%;
+    text-align: center;
+}
+.car33{
+    margin:40px;
+    height:30%;
+    width:20%;
+    text-align: center; 
+}
+.car44{
+    margin:40px;
+    height:30%;
+    width:20%;
+    text-align: center;
+}
+.car4-button button{
+    height: 40px;
+    width: 150px;
+    background-color: black;
+    color: white;
+}
+.car4-button button:hover{
+background-color: silver;
+}
+.car4-end{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last-img{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://www.bmwusa.com/content/dam/bmwusa/common/fma/new-aftersales-fmas-assets/my-bmw-app/FS-Hero-Desktop-v2.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.last-content{
+    height: 150px;
+    width:50%;
+}
+.last-content h2{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
+}
+.last-button{
+    margin-top: 87px;
+    margin-left: 50px;
+    height: 100px;
+    width: 150px;
+}
+.last-button button{
+    height: 46%;
+    width: 86%;
+    font-family: serif;
+    font-weight: bolder;
+}
+.last-button button:hover{
+background-color: silver;
+}
+.ownership{
+height:350px;
+width:100%;
+}
+.owner-head{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+.owner-img{
+height:70px;
+width: 71px;
+}
+.owner-section a{
+    text-decoration: underline;
+    color:black;
+    font-weight: bold;
+
+}
+.owner-section a:hover{
+    color:silver;
+}
+.owner-section{
+    display: flex;
+    margin-left: 15px;
+    margin-top: 30px;
+    justify-content: space-evenly;
+}
+.owner-section1{
+    text-align: center;
+}
+.owner-section2{
+    text-align: center;
+}
+.owner-section3{
+    text-align: center;
+}
+.owner-section4{
+    text-align: center;
+}
+.owner-section p{
+    font-size: 1.5rem;
+    font-family: serif;
+    font-weight: 300;
+    color:black;
+
+}
+.scnd-last{
+    padding-top: 10px;
+    height:450px;
+    width: 100%;
+    border-bottom: 2px solid silver;
+}
+.discover{
+    width:50%;
+    padding-top: 10px;
+}
+.Buy{
+    padding-top: 10px;
+    width:50%;
+    margin-left: 50px;
+}
+.disc-head h3{
+    color:black;
+    font-weight: lighter;
+    margin: 10px;
+}
+.disc-head{
+    border-bottom: 2px solid silver;
+}
+
+
+.footer-table{
+    display: flex;
+}
+.footer-table a{
+    text-decoration: none;
+    color:silver;
+    margin:5px;
+}.bg
+.discover{
+    display:flex;
+}
+ ul{
+    display: block;
+}
+ul a{
+    display:flex;
+    flex-direction: column;
+}
+.table-1{
+    width: 50%;;
+}
+.table-2{
+    width:50%;
+}
+.scnd-last{
+    display: flex;
+}
+.copyright{
+    height:30px;
+    color:black;
+    font-size: 15px;
+    display: flex;
+}
+.copyright p{
+    width: 100%;
+}
+.icons{
+    width:80px;
+    height: 25px;
+}
+
